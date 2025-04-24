@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+coverage/
+npm-debug.log
+yarn-error.log
+.env
+.DS_Store
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Solana
+.anchor/
+.solana/
+.crates.toml
+keypair.json
+
+# Project specific
+token-info.json
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace 
